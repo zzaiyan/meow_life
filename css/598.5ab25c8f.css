@@ -1,1 +1,204 @@
-.home[data-v-05e67310]{padding:20px 0;max-width:800px;margin:0 auto}.hero-section[data-v-05e67310]{display:flex;flex-direction:column;align-items:center;gap:30px;margin-bottom:40px;padding:40px 20px;background:linear-gradient(135deg,#fff5f8,#ffe4e8);border-radius:20px;box-shadow:0 4px 15px rgba(255,158,205,.1)}.hero-content[data-v-05e67310]{text-align:center}.hero-content h1[data-v-05e67310]{font-size:36px;color:#ff6b9c;margin-bottom:10px;font-weight:700}.hero-content p[data-v-05e67310]{font-size:18px;color:#666}.search-box[data-v-05e67310]{display:flex;align-items:center;gap:10px;width:100%;max-width:500px}.search-input[data-v-05e67310]{flex:1;padding:12px 20px;border:2px solid #eee;border-radius:25px;font-size:16px;transition:all .3s ease}.search-input[data-v-05e67310]:focus{border-color:#ff6b9c;outline:none;box-shadow:0 0 0 3px rgba(255,107,156,.1)}.search-btn[data-v-05e67310]{display:flex;align-items:center;justify-content:center;width:45px;height:45px;border:none;border-radius:50%;background:#ff6b9c;color:#fff;cursor:pointer;transition:all .3s ease}.search-btn[data-v-05e67310]:hover{background:#ff85c2;transform:translateY(-2px)}.timeline[data-v-05e67310]{position:relative;padding-left:30px}.timeline[data-v-05e67310]:before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:#eee}.timeline-item[data-v-05e67310]{position:relative;margin-bottom:40px}.timeline-item[data-v-05e67310]:before{content:"";position:absolute;left:-34px;top:0;width:10px;height:10px;border-radius:50%;background:#ff6b9c;border:2px solid #fff;box-shadow:0 0 0 2px #ff6b9c}.timeline-date[data-v-05e67310]{position:absolute;left:-120px;top:-5px;font-size:14px;color:#666}.timeline-content[data-v-05e67310]{background:#fff;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,.05);overflow:hidden;transition:all .3s ease}.timeline-content[data-v-05e67310]:hover{transform:translateY(-5px);box-shadow:0 8px 25px rgba(255,107,156,.1)}.record-card[data-v-05e67310]{padding:20px;box-sizing:border-box}.record-card.daily[data-v-05e67310]{border-left:4px solid #4caf50}.record-card.health[data-v-05e67310]{border-left:4px solid #2196f3}.record-card.grooming[data-v-05e67310]{border-left:4px solid #ff9800}.record-card.notes[data-v-05e67310]{border-left:4px solid #9c27b0}.record-header[data-v-05e67310]{display:flex;justify-content:space-between;align-items:center;margin-bottom:15px}.record-body[data-v-05e67310]{margin:15px 0}.record-title[data-v-05e67310]{font-size:18px;color:#333;margin-bottom:10px}.record-description[data-v-05e67310]{color:#666;line-height:1.6;margin-bottom:15px}.next-date[data-v-05e67310]{display:flex;align-items:center;gap:8px;color:#ff6b9c;font-size:14px}.record-actions[data-v-05e67310]{display:flex;gap:10px;margin-top:15px}.action-btn[data-v-05e67310]{display:flex;align-items:center;gap:5px;padding:8px 15px;border:none;border-radius:15px;font-size:14px;cursor:pointer;transition:all .3s ease}.action-btn.edit[data-v-05e67310]{background:#e3f2fd;color:#1976d2}.action-btn.delete[data-v-05e67310]{background:#ffebee;color:#d32f2f}@media (max-width:768px){.hero-section[data-v-05e67310]{padding:30px 15px}.hero-content h1[data-v-05e67310]{font-size:28px}.pets-list[data-v-05e67310]{padding:10px}.type-filter[data-v-05e67310]{padding:0 10px}.timeline[data-v-05e67310]{padding-left:20px}.timeline-date[data-v-05e67310]{position:static;margin-bottom:10px;color:#999}.timeline-item[data-v-05e67310]:before{left:-24px}}
+.home[data-v-05e67310] {
+  padding: 20px 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hero-section[data-v-05e67310] {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #fff5f8, #ffe4e8);
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(255, 158, 205, 0.1);
+}
+.hero-content[data-v-05e67310] {
+  text-align: center;
+}
+.hero-content h1[data-v-05e67310] {
+  font-size: 36px;
+  color: #ff6b9c;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.hero-content p[data-v-05e67310] {
+  font-size: 18px;
+  color: #666;
+}
+.search-box[data-v-05e67310] {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+.search-input[data-v-05e67310] {
+  flex: 1;
+  padding: 12px 20px;
+  border: 2px solid #eee;
+  border-radius: 25px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.search-input[data-v-05e67310]:focus {
+  border-color: #ff6b9c;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 107, 156, 0.1);
+}
+.search-btn[data-v-05e67310] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  background: #ff6b9c;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.search-btn[data-v-05e67310]:hover {
+  background: #ff85c2;
+  transform: translateY(-2px);
+}
+.timeline[data-v-05e67310] {
+  position: relative;
+  padding-left: 30px;
+}
+.timeline[data-v-05e67310]:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #eee;
+}
+.timeline-item[data-v-05e67310] {
+  position: relative;
+  margin-bottom: 40px;
+}
+.timeline-item[data-v-05e67310]:before {
+  content: "";
+  position: absolute;
+  left: -34px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #ff6b9c;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 2px #ff6b9c;
+}
+.timeline-date[data-v-05e67310] {
+  position: absolute;
+  left: -120px;
+  top: -5px;
+  font-size: 14px;
+  color: #666;
+}
+.timeline-content[data-v-05e67310] {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.timeline-content[data-v-05e67310]:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(255, 107, 156, 0.1);
+}
+.record-card[data-v-05e67310] {
+  padding: 20px;
+  box-sizing: border-box;
+}
+.record-card.daily[data-v-05e67310] {
+  border-left: 4px solid #4caf50;
+}
+.record-card.health[data-v-05e67310] {
+  border-left: 4px solid #2196f3;
+}
+.record-card.grooming[data-v-05e67310] {
+  border-left: 4px solid #ff9800;
+}
+.record-card.notes[data-v-05e67310] {
+  border-left: 4px solid #9c27b0;
+}
+.record-header[data-v-05e67310] {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.record-body[data-v-05e67310] {
+  margin: 15px 0;
+}
+.record-title[data-v-05e67310] {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.record-description[data-v-05e67310] {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+.next-date[data-v-05e67310] {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #ff6b9c;
+  font-size: 14px;
+}
+.record-actions[data-v-05e67310] {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+.action-btn[data-v-05e67310] {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 15px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.action-btn.edit[data-v-05e67310] {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+.action-btn.delete[data-v-05e67310] {
+  background: #ffebee;
+  color: #d32f2f;
+}
+@media (max-width: 768px) {
+  .hero-section[data-v-05e67310] {
+    padding: 30px 15px;
+  }
+  .hero-content h1[data-v-05e67310] {
+    font-size: 28px;
+  }
+  .pets-list[data-v-05e67310] {
+    padding: 10px;
+  }
+  .type-filter[data-v-05e67310] {
+    padding: 0 10px;
+  }
+  .timeline[data-v-05e67310] {
+    padding-left: 20px;
+  }
+  .timeline-date[data-v-05e67310] {
+    position: static;
+    margin-bottom: 10px;
+    color: #999;
+  }
+  .timeline-item[data-v-05e67310]:before {
+    left: -24px;
+  }
+}

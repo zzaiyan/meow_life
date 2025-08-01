@@ -1,1 +1,11 @@
-.grooming-cost[data-v-08d354cc],.grooming-duration[data-v-08d354cc]{display:flex;align-items:center;gap:8px;color:#666}.grooming-cost i[data-v-08d354cc],.grooming-duration i[data-v-08d354cc]{color:#9c27b0}
+.grooming-cost[data-v-08d354cc],
+.grooming-duration[data-v-08d354cc] {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #666;
+}
+.grooming-cost i[data-v-08d354cc],
+.grooming-duration i[data-v-08d354cc] {
+  color: #9c27b0;
+}
